@@ -184,13 +184,15 @@
                 <ul>
                     <%
                         File[] roots = File.listRoots();
+                        System.out.println(roots.length);
                         if (roots.length < 2) {
                             File tmp = roots[0];
                             roots = tmp.listFiles();
+                            System.out.println(roots.length);
                         }
                         for (File root : roots) {
                             %>
-                            <li><a href="files.jsp?path=<%=root.getAbsolutePath()%>"><%=root.getName()%></a></li>
+                            <li><a href="files.jsp?path=<%=root.getAbsolutePath()%>"><%=root.getAbsolutePath()%></a></li>
                             <%
                         }
                     %>
