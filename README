@@ -1,4 +1,4 @@
-##JSP WEBSHELL
+JSP WEBSHELL
 ===================
 功能介绍：
 1.文件管理 ……………………………………………………………………[files.jsp]
@@ -11,6 +11,7 @@ PS. 实际应用请按需修改定制，尤其是密码功能。
     测试兼容 Windows、Linux、Macosx
 
 文件管理
+![github](https://github.com/mrzhang/x-door/blob/master/raw/QQ20150304-3%402x.png "文件管理")
 ![image](https://github.com/mrzhang/x-door/blob/master/raw/QQ20150304-3%402x.png)
 命令执行
 ![image](https://github.com/mrzhang/x-door/blob/master/raw/QQ20150304-1%402x.png)
